@@ -1,0 +1,323 @@
+/* Common setup */
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+/* Common element */
+a
+{
+   text-decoration: none;
+}
+
+li
+{
+   list-style: none;
+}
+
+
+/* Common classes */
+.container
+ {
+    max-width: 1210px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+ }
+
+body
+ {
+   background-color: #D0F7FF;
+ }
+/* nav-bar section */
+nav
+ {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+ }
+
+.nav-list
+ {
+    display: flex;
+ } 
+
+.nav-list li
+ {
+    padding-right: 20px;
+ } 
+
+.nav-list li a
+  {
+    color: white;
+  } 
+
+.nav-list li a img
+  {
+     background-color: white;
+     border-radius: 50%;
+  }  
+
+  /* banner-section */
+
+  .banner
+     {
+        background-image: url("../FigmaImages/HeaderImg.png");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.6);
+     }
+
+     /* Collection */
+
+     .outer
+       {
+          height: 1462px;
+       }
+
+     .section_padding
+       {
+          padding-top: 66px;
+          padding-bottom: 80px;
+       }
+
+      .collection
+        {
+           background-color: #D0F7FF;
+        } 
+
+      .collectionpart
+        {
+          display: flex;
+          justify-content: space-between;
+        }  
+
+      .collectioncontent
+        {
+           width: 50%;
+           margin-top: 105px;
+        } 
+        
+      .sp
+       {
+          color: #4590D6;
+          
+       }  
+      .para
+        {
+           font-size: 40px;
+        } 
+
+      .collectionimg
+        {
+           width: 50%;
+           position: relative;
+        }  
+
+      .imgs 
+        {
+           width: 237px;
+           height: 438px; 
+        } 
+
+      #img1
+       {
+          width: 30%;
+          position: absolute;
+          top: 35%;
+          left: 0;
+          z-index: 3;
+       }  
+
+      #img2
+       {
+          width: 50%;
+          position: absolute;
+          top: 20%;
+          left: 20%;
+          z-index: 2;
+          /* border: 5px solid white; */
+       } 
+
+      #img3
+       {
+          width: 70%;
+          position: absolute;
+          top: 0;
+          left: 25%;
+          z-index: 1;
+       }  
+
+      .mb
+       {
+          margin-bottom: 20px;
+       } 
+
+      .collectioncontent a
+         {
+            background-color: #4590D6;
+            color: white;
+            padding: 10px;
+         }
+
+      /* About us */
+
+      .Aboutus
+        {
+           background-color: #D0F7FF;
+        }
+
+      .aimg2
+        {
+           position: relative;
+           top: 295px;
+           right: 235px;
+        }  
+
+      .section_padding_about 
+        {
+           margin-top: 152px;
+           margin-bottom: 77px;
+           background-color: #D0F7FF;
+        }
+
+      .aboutcontent
+        {
+           display: inline-block;
+           width: 382px;
+           height: 694px;
+           position: relative;
+           left: 250px;
+           bottom: 280px;
+           background-color: #0C163C;
+           padding: 20px 30px 40px 20px;
+        }  
+
+      .bl
+       {
+          color: #4590D6;
+       } 
+       
+      .clr
+        {
+          color: white;
+        }
+
+      .hmb
+       {
+          margin-bottom: 40px;
+       }
+
+      .fpmb
+        {
+          margin-bottom: 30px;
+        } 
+
+       .spmb
+        {
+          margin-bottom: 30px;
+        } 
+
+       .tpmb
+        {
+          margin-bottom: 30px;
+        } 
+
+        .fpmb
+          {
+            margin-bottom: 30px;
+          }
+
+        .btn
+          {
+             background-color: #4590D6;
+             padding: 10px 30px;
+          }  
+
+        .aboutmorecontent
+          {
+             position: relative;
+             bottom: 930px;
+             left: 650px;
+          }  
+
+        .smc
+          {
+             color: #4590D6;
+          }
+          
+         .somemorecontent
+           {
+             position: relative;
+             bottom: 900px;
+             left: 700px;
+   
+           } 
+
+         .smmb
+           {
+             margin-bottom: 10px;
+           }  
+
+           /* choice section */
+            
+           .choice
+             {
+                display: flex;
+                width: 1520px;
+                
+             }
+
+           .choicecontent
+              {
+                 background-color: #0C163C;
+                 width: 90%;
+                 padding: 200px 50px 50px 30px;
+              }
+
+           .chs
+             {
+                color: #4590D6;
+             } 
+             
+           .choicecontent h1
+             {
+                font-size: 40px;
+                margin-bottom: 20px;
+             } 
+
+           .chc
+            {
+               color: white;
+            }  
+              
+          .choicecontent p
+            {
+               margin-bottom: 30px;
+            } 
+
+            /* News Part */
+
+            .iicon1
+              {
+                 position: relative;
+                 bottom: 120px;
+              }
+
+            .section_padding_news
+              {
+                 padding-top: 51px;
+                 padding-bottom: 94px;
+              } 
+              
+            .img2
+              {
+                 
+              }  

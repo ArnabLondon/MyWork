@@ -31,14 +31,40 @@ body
  {
    background-color: #D0F7FF;
  }
-/* nav-bar section */
-nav
+/* nav-bar and banner combined section */
+/* nav
  {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
- }
+ } */
 
+ .banner-content
+   {
+      padding: 200px 50px 100px 100px;
+   }
+ .banner-content h1,h2
+   {
+      margin-bottom: 10px;
+   }
+ .banner-content p
+   {
+      margin-bottom: 20px;
+   } 
+ .banner-content span
+   {
+      color: #4590D6;
+   }  
+ .anch
+   {
+      background-color: #4590D6;
+      padding: 10px 20px;
+      color: white;
+   }
+.logo
+  {
+     margin-left: 120px;
+  } 
 .nav-list
  {
     display: flex;
@@ -47,12 +73,17 @@ nav
 .nav-list li
  {
     padding-right: 20px;
+    padding-left: 30px;
  } 
 
 .nav-list li a
   {
     color: white;
   } 
+.active
+  {
+     color: red;
+  }  
 
 .nav-list li a img
   {
@@ -60,20 +91,63 @@ nav
      border-radius: 50%;
   }  
 
-  /* banner-section */
+  .hero-section
+    {
+       display: flex;
+       width: 100%;
+       height: 100vh;
+    }
 
-  .banner
+  .left-side 
+    {
+         background-color: #0C163C;
+         color: white;
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+    }
+
+  .right-side 
+    {
+         width: 50%;
+         /* display: flex; */
+         /* align-items: center;
+         justify-content: center; */
+         /* background-color: white; or transparent */
+         background-image: url('../FigmaImages/HeaderImg.png');
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         min-height: 100vh;
+    }  
+
+
+  /* .banner
+    {
+       display: flex;
+    } */
+
+  /* .banner-img
      {
-        background-image: url("../FigmaImages/HeaderImg.png");
-        height: 90vh;
+        /* background-image: url("../FigmaImages/HeaderImg.png"); */
+        /* height: 90vh;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
+        background-position: center; */
+        /* display: flex; */
+        /* justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.6);
-     }
+        background-color: rgba(0, 0, 0, 0.6); */
+        
+        /* width: 50%;
+     }  */
+
+    /* .banner-content
+      {
+         background-color: #0C163C;
+         width: 50%;
+         
+      }  */
 
      /* Collection */
 
@@ -104,12 +178,20 @@ nav
            width: 50%;
            margin-top: 105px;
         } 
-        
+       .para 
+         {
+            color: #0C163C;
+         }
+       .mb 
+        {
+           color: #0C163C;
+        } 
       .sp
        {
           color: #4590D6;
           
-       }  
+       } 
+
       .para
         {
            font-size: 40px;
@@ -220,21 +302,6 @@ nav
           margin-bottom: 30px;
         } 
 
-       .spmb
-        {
-          margin-bottom: 30px;
-        } 
-
-       .tpmb
-        {
-          margin-bottom: 30px;
-        } 
-
-        .fpmb
-          {
-            margin-bottom: 30px;
-          }
-
         .btn
           {
              background-color: #4590D6;
@@ -266,12 +333,17 @@ nav
              margin-bottom: 10px;
            }  
 
+         .mr 
+          {
+             color: #000000;
+          } 
+
            /* choice section */
             
            .choice
              {
                 display: flex;
-                width: 1520px;
+                /* width: 1520px; */
                 
              }
 
@@ -304,20 +376,243 @@ nav
             } 
 
             /* News Part */
-
+            /* .news
+              {
+                 height: 1442px;
+              } */
+            .Nsp
+             {
+                color: #4590D6;
+             }
+            .Nhead 
+             {
+               text-align: center;
+               margin-bottom: 10px;
+             }
+            .Npara 
+             {
+                text-align: center;
+                margin-bottom: 40px;
+                color: #000000;
+             }
+            .Nimg1
+              {
+                position: relative;
+              }
             .iicon1
               {
-                 position: relative;
-                 bottom: 120px;
+                 position: absolute;
+                 bottom: 90px;
+                 left: 30px;
+                 color: white;
               }
-
+            .Nimg2
+              {
+                position: relative;
+                left: 620px;
+                bottom: 375px;
+              }
+            .iicon2
+              {
+                 position: absolute;
+                 bottom: 90px;
+                 left: 30px;
+                 color: white;
+              }
+            .Nimg3
+              {
+                 position: relative;
+                 bottom: 360px;
+              }
+            .iicon3  
+              {
+                 position: absolute;
+                 bottom: 90px;
+                 left: 30px;
+                 color: white;
+              }
+            .Nimg4
+              {
+                 position: relative;
+                 left: 620px;
+                 bottom: 720px;
+              }
+            .iicon4
+              {
+                 position: absolute;
+                 bottom: 90px;
+                 left: 30px;
+                 color: white;
+              } 
+            .Nimg5  
+              {
+                 position: relative;
+                 left: 920px;
+                 bottom: 1085px;
+              }
+            .iicon5
+              {
+                 position: absolute;
+                 bottom: 90px;
+                 left: 30px;
+                 color: white;
+              } 
+            .Nh
+             {
+                margin-bottom: 10px;
+             }
+            .Np 
+             {
+                margin-bottom: 20px;
+             }
+            .Na 
+             {
+                color: white;
+                background-color: #4590D6;
+                padding: 10px 20px;
+             }     
             .section_padding_news
               {
                  padding-top: 51px;
-                 padding-bottom: 94px;
+                 /* padding-bottom: 94px; */
               } 
               
-            .img2
-              {
-                 
-              }  
+            /* Subscription Part */
+              
+              .sub-img
+                {
+                   position: relative;
+                  bottom: 1000px;  
+                }
+
+              .si
+               {
+                  width: 100%;
+               } 
+               
+              .sub-content 
+                {
+                  position: absolute;
+                  bottom: 150px;
+                  left: 400px;
+                  background-color: #FFFBFB;
+                  padding: 70px 150px;
+                }
+
+              .sub-content h2,h4 
+                {
+                   margin-bottom: 10px;
+                }
+
+            .sub-content input[type="email"]
+                {
+                   margin-bottom: 10px;
+                   width: 70%;
+                }
+           input[type="submit"] 
+                {
+                   background-color: #4590D6;
+                   padding: 5px 10px;
+                   color: white;
+                } 
+                
+              .sub-content h2 
+                {
+                   margin-left: 50px;
+                } 
+ 
+              .sub-list li 
+                {
+                   display: inline-block;
+                   margin-right: 20px; 
+                }  
+
+               .fi
+                {
+                   margin-left: 600px;
+                } 
+
+               .sub-list 
+                 {
+                    position: relative;
+                    bottom: 1050px;
+                    /* border: 2px solid black; */
+                    padding: 30px 0;
+                    background-color: #FFFFFF;
+                    
+                 }
+
+               .caml  
+                 {
+                    color: black;
+                 }
+               /* Footer-section */
+               .company-details
+                 {
+                    background-color: #0C163C;
+                    border: 4px solid white;
+                    position: relative;
+                    bottom: 1050px;
+                 }  
+               .contact 
+                 {
+                    display: flex;
+                    justify-content: space-evenly;                  
+                 } 
+               .contact-info h5,p 
+                 {
+                    color: white;
+                 }
+               .contact-info h5
+                 {
+                    margin-bottom: 20px;
+                 }  
+               .contact-info P 
+                 {
+                    margin-bottom: 40px;
+                 } 
+               .cii 
+                 {
+                    position: relative;
+                    bottom: 20px;
+                 } 
+               .Help-Section h5 
+                 {
+                    color: white;
+                    margin-bottom: 20px;
+                 }
+               .hul li
+                 {
+                   list-style: none;
+                   border-bottom: 2px solid white;
+                 }
+               .hul li a
+                 {
+                   color: white;
+                 }    
+               .Rul li
+                 {
+                    list-style: none;
+                    border-bottom: 2px solid white;
+                 }
+               .Rul li a 
+                 {
+                    color: white;
+                 } 
+               .Resources h5
+                 {
+                    color: white;
+                    margin-bottom: 20px;
+                 }
+               .further-contact h5
+                 {
+                    color: white;
+                    margin-bottom: 20px;
+                 }
+               .fie
+                {
+                   width: 60%;
+                   padding: 10px 0 10px 10px;
+                }
+
+               

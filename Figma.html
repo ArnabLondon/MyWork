@@ -4,39 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css">
     <link rel="stylesheet" href="./CSS/Figma.css">
 </head>
 <body>
-    <div class="container">
-    <nav>
+   <header>
+   <!-- Nav-bar and banner section combined-->
+    <div class="hero-section">
+     <div class="left-side">
+       <!-- <div class="container"> -->
        <div class="nav-logo">
-          <a href="#"><img src="./FigmaImages/Logo.png" alt="LogoImg"></a>
-       </div>
-       <div class="nav-items">
+          <a href="#"><img src="./FigmaImages/Logo.png" alt="LogoImg" class="logo"></a>
+       </div>  
+       <!-- </div> -->   
+       <div class="banner-content">
+             <h1>BENGAL HOME COLONY</h1>
+             <h2>Now It's Easy To<br>Find <span>Your Home</span></h2>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing<br> elit. Vivamus sagittis turpis,at pulvinar<br> turpis convallis at. </p>
+             <a href="#" class="anch">Get Started</a>
+       </div> 
+     </div>
+     <div class="right-side">
+      <div class="nav-items">
         <ul class="nav-list">
-            <li><a href="#">HOME</a></li>
+            <li><a href="#" class="active">HOME Section</a></li>
             <li><a href="#aboutus">ABOUT US</a></li>
             <li><a href="#contactus">CONTACT US</a></li>
             <li><a href="#blog">BLOG</a></li>
             <li><a href="#"><img src="./FigmaImages/HumanLogo.png" alt="HumanLogo"></a></li>
         </ul>
        </div> 
+     <!-- <div class="banner-img">
+         <img src="./FigmaImages/HeaderImg.png" alt="banner-img">
+      </div> -->
+     </div> 
     </div>
-    </nav>
+   </header>
 
-    <main>
-       <section class="banner">
-         <div class="container">
-          <div class="banner-content">
-             <h1>BENGAL HOME COLONY</h1>
-             <h2>Now It's Easy To<br>Find Your Home</h2>
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quod corrupti rem, perspiciatis iure minus.</p>
-             <a href="#">Get Started</a>
-          </div>
-         </div> 
-       </section> 
+     <main>
+       <!-- <section class="banner">  
+          
+          
+       </section>  -->
 
-      <div class="outer"> 
+      <div class="outer">
        <!-- Collection Part -->
        <section class="collection section_padding">
          <div class="container">
@@ -85,14 +99,14 @@
                      Sed egestas tellus vitae gravida accumsan. Donec<br>
                      nisi ex, ultrices vitae sagittis ut, pretium vel mi.
                   </p>
-                  <p class="clr spmb">
+                  <p class="clr fpmb">
                      Phasellus id eros rhoncus, varius ex vitae,feugiat<br>
                      mauris. Morbi id massa dapibus,mattis diam quis,<br>
                      bibendum velit.Integer feugiat ut nibh et<br>
                      hendreit.Vivamus sagitis turpis vitae malesuada<br>
                      sagittis,elit augue mattis mauris,a maximus erat
                   </p>
-                  <p class="clr tpmb">
+                  <p class="clr fpmb">
                      In consequat semper metus.Quisque porta,<br>
                      sapien id posuere aliquet,ex justo dictum massa,<br>
                      quis faucibus ipsum tellus eu quam.Nulla facillisi.<br>
@@ -126,8 +140,8 @@
        </section> 
       </div>
       
-      <!-- Choice section -->
-      <div class="choicediv">
+      <!-- Choice section  -->
+       <div class="choicediv">
          <section class="choice">
              <div class="choiceimg">
                 <img src="./Choice section/tax planning 1.png" alt="tax image">
@@ -153,63 +167,152 @@
       <!-- News section -->
       <section class="News section_padding_news">
          <div class="container">
+            <h1 class="Nhead">Our Latest <span class="Nsp">News</span></h1>
+            <p class="Npara">
+               Lorem ipsum dolor sit amet,consectetur adipiscing elit. mauris venenatis arcu<br>
+               at metus placerat, rutrum faucibus lorem hendrerit.
+            </p>
          <div class="Nimg1">
             <img src="./News Section/ZEBRA CROSSING 1.png" alt="zebra crossing">
             <div class="iicon1">
-            <h2>BEST REAL ESTATE</h2>
-            <p>
+            <h5 class="Nh">BEST REAL ESTATE</h5>
+            <p class="Np">
                3 Steps To Get That Quick Summer<br>
                Glow Head To Toe
             </p> 
-            <a href="#">Read More</a>
+            <a href="#" class="Na">Read More</a>
             </div>
          </div>
          <div class="Nimg2">
             <img src="./News Section/friends 1.png" alt="friends" class="img2">
-            <div class="iicon1">
-            <h2>BEST REAL ESTATE</h2>
-            <p>
+            <div class="iicon2">
+            <h5 class="Nh">BEST REAL ESTATE</h5>
+            <p class="Np">
                3 Steps To Get That Quick Summer<br>
                Glow Head To Toe
             </p> 
-            <a href="#">Read More</a>
+            <a href="#" class="Na">Read More</a>
             </div>
          </div>
          <div class="Nimg3">
             <img src="./News Section/TALKING 1.png" alt="talking">
-            <div class="iicon1">
-            <h2>BEST REAL ESTATE</h2>
-            <p>
+            <div class="iicon3">
+            <h5 class="Nh">BEST REAL ESTATE</h5>
+            <p class="Np">
                3 Steps To Get That Quick Summer<br>
                Glow Head To Toe
             </p> 
-            <a href="#">Read More</a>
+            <a href="#" class="Na">Read More</a>
             </div>
          </div>
          <div class="Nimg4">
             <img src="./News Section/wemen 1.png" alt="Women">
-            <div class="iicon1">
-            <h2>BEST REAL ESTATE</h2>
-            <p>
+            <div class="iicon4">
+            <h5 class="Nh">BEST REAL ESTATE</h5>
+            <p class="Np">
                3 Steps To Get That Quick Summer<br>
                Glow Head To Toe
             </p> 
-            <a href="#">Read More</a>
+            <a href="#" class="Na">Read More</a>
             </div>
          </div>
          <div class="Nimg5">
             <img src="./News Section/wall 1.png" alt="wall">
-            <div class="iicon1">
-            <h2>BEST REAL ESTATE</h2>
-            <p>
+            <div class="iicon5">
+            <h5 class="Nh">BEST REAL ESTATE</h5>
+            <p class="Np">
                3 Steps To Get That Quick Summer<br>
                Glow Head To Toe
             </p> 
-            <a href="#">Read More</a>
+            <a href="#" class="Na">Read More</a>
             </div>
          </div>
         </div> 
       </section> 
-    </main>
+      <section class="subscription ">
+          <div class="sub-img">
+             <img src="./Subscription_images/paradise 1.png" alt="paradise image" class="si">
+             <div class="sub-content">
+                <h2>Let's stay in touch</h2>
+                <h4>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h4>
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+                <input type="submit" value="SUBSCRIBE">
+                <h4>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h4>
+             </div>
+            </div>
+      </section>
+      <section class="icons">
+         <div class="sub-icon">
+               <ul class="sub-list">
+                  <li class="fi"><a href="#" class="caml"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                  <li><a href="#" class="caml"><i class="fa-brands fa-twitter"></i></i>Twitter</a></li>
+                  <li><a href="#" class="caml"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                  <li><a href="#" class="caml"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                 </ul>
+          </div>
+      </section>
+    </main> 
+    <footer class="company-details">
+      <div class="contact">
+       <div class="contact-info">
+          <h5>Contact info</h5>
+          <p>
+            Lorem Ipsum is simply<br>
+            dummy text of the printing<br>
+            and typesetting industry.
+          </p>
+          <h5>
+            We accepted
+          </h5>
+          <img src="./Footer_Part/image 10.png" alt="cards-image" class="cii">
+       </div>
+       <div class="Help-Section">
+         <h5>Get Help</h5>
+         <ul class="hul">
+            <li><a href="#">Company</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Hiring</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+       </div>
+       <div class="Resources">
+         <h5>Resources</h5>
+         <ul class="Rul">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Resource</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Webinars</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Center</a></li>
+         </ul>
+       </div>
+       <div class="further-contact">
+         <h5>Let's stay in touch</h5>
+         <input type="email" name="email" id="email" placeholder="Enter your email address" class="fie">
+         <input type="submit" value="SUBSCRIBE" class="fcsub">
+         <P>
+            Lorem ipsum dolor sit amet,consectetur adipiscing<br>
+            elit.Mauris venenatis arcu at metus placerat,rutrum<br>
+            faucibus lorem hendrerit.
+         </P>
+       </div>
+      </div> 
+      <!-- <div class="last-part">
+         <div class="left-side">
+           <p>Copyright &copy; 1996-2024 Travila.com<sup>TM</sup>.All rights reserved.</p>
+         </div>
+         <div class="right-side">
+             <h5>DESIGN BY:WWW.TRAVELA.COM</h5> 
+         </div>
+      </div> -->
+    </footer>
 </body>
 </html>
